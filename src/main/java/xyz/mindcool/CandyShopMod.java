@@ -7,11 +7,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import xyz.mindcool.registry.RegisterItems;
-import xyz.mindcool.registry.items.MagicSugar;
 
 public class CandyShopMod implements ModInitializer {
 	// Logger

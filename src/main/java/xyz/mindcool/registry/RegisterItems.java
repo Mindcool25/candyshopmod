@@ -6,6 +6,7 @@ import net.minecraft.util.registry.Registry;
 import xyz.mindcool.CandyShopMod;
 import xyz.mindcool.registry.items.MagicSugar;
 
+
 public class RegisterItems {
     public static final MagicSugar MAGIC_SUGAR = new MagicSugar(new FabricItemSettings().group(CandyShopMod.CANDY_SHOP_GROUP));
     public void init() {
